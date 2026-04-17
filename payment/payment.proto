@@ -14,7 +14,7 @@ service PaymentService {
 message PaymentRequest {
   string order_id = 1;
   int64  amount   = 2;
-}
+} 
 
 message PaymentResponse {
   string transaction_id = 1;
